@@ -1,0 +1,262 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+nav .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    background-color: black;
+    color:white;
+    /* height: 80px; */
+    position: fixed;
+    width: 100%;
+}
+
+nav .link{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:link{
+    color:white;
+}
+nav a:hover{
+    color:green;
+}
+
+nav span{
+    pointer-events: none;
+}
+
+#section1{
+    padding-top: 80px;
+    background-color: red;
+    min-height: 70vh;
+}
+#section1 .text{
+    flex-basis: 50%;
+}
+
+#section1 .title1{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+#section1 .title2{
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+}
+
+#section1 .decription{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+#section1 .button{
+    margin-top: 35px;
+    border-radius: 500px;
+    font-size: 14;
+    font-weight: 700;
+    padding: 17px 48px;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+#section1 .note{
+    font-size: 13px;
+    margin: 32px 0;
+}
+#section1 .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section2{
+    padding: 120px;
+    min-height: 606px;
+    background-color: #cb1582;
+}
+
+
+#section2 .text{
+    flex-basis: 50%;
+    color: #a5ffef;
+}
+
+#section2 .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#section2 .bottom-box{
+    position: relative;
+    width: 500px;
+    height: 320px;
+    background: linear-gradient(
+        359.37deg
+        , #000 3.09%, #ff4632 22.4%, #fae62d 46.64%, #9bf0e1 62.15%, #a0c3d2 79.91%, #4100f5 99.49%);
+}
+
+#section2 .top-box{
+        position: absolute;
+        display: flex;
+        align-items: flex-end;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 40px;
+        background-color: #a5ffef;
+        width: 380px;
+        height: 380px;
+        color: #cb1582;
+        font-size: 56px;
+        font-weight: 700;   
+}
+
+#section2 .title2{
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#section2 .decription{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+#section2 .button{
+    margin-top: 35px;
+    border-radius: 500px;
+    font-size: 14;
+    font-weight: 700;
+    padding: 17px 48px;
+    background-color: #a5ffef;
+    color: #cb1582;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+
+#section3 {
+    padding-top: 80px;
+    background-image: url(/images/LiE_circles.svg);
+    background-size: auto 100%;
+    color: #1ed760;
+    background-color: #2d46b9;
+    background-position: right center;
+    background-repeat: no-repeat;
+    min-height: 606px;
+  }
+
+#section3 .text{
+    flex-basis: 50%;
+
+}
+
+#section3 .title1{
+    font-size: 16px;
+    font-weight: 700px;
+
+}
+
+
+#section3 .title2{
+    font-size: 64px;
+    font-weight: 1000;
+    letter-spacing: -0.04em;
+}
+
+#section3 .decription{
+    font-size: 16px;
+    font-weight: 1000px;
+    margin-top: 16px;
+}
+
+#section3 .button{
+    margin-top: 35px;
+    border-radius: 500px;
+    font-size: 14;
+    font-weight: 700;
+    padding: 17px 48px;
+    background-color: #1ed760;
+    color: #cb1582;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+footer{
+    background: black;
+    padding-top : 80px;
+    padding-bottom: 50px;
+}
+
+footer .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-left{
+    color:grey;
+    flex-basis: 60%;
+    font-weight: 700;
+
+}
+
+footer .footer-heading{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer a{
+    color: white;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.row2{
+    color: white;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: end;
+}
+
+.row3{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row4{
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
